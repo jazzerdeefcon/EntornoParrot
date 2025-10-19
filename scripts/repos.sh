@@ -19,10 +19,6 @@ echo "deb [signed-by=/usr/share/keyrings/parrot-archive-keyring.gpg] https://deb
 echo "deb [signed-by=/usr/share/keyrings/parrot-archive-keyring.gpg] https://deb.parrot.sh/direct/parrot lory-security main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list.d/parrot.list
 echo "deb [signed-by=/usr/share/keyrings/parrot-archive-keyring.gpg] https://deb.parrot.sh/parrot lory-backports main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list.d/parrot.list
 
-# Limpiar y actualizar APT
-sudo apt clean
-sudo apt update
-
 # Hacer backup del archivo de repositorios
 sudo mv /etc/apt/sources.list.d/parrot.list /etc/apt/sources.list.d/parrot.list.bak
 
