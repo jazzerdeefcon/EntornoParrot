@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Instalar paquetes base
-sudo apt install -y git curl wget unzip build-essential cmake zsh htop tmux nano fonts-powerline locate x11vnc btop
+sudo apt install -y git curl wget unzip build-essential cmake zsh htop tmux nano fonts-powerline locate x11vnc btop neofetch
 
 # Instalar librerías X y desarrollo gráfico
 sudo apt install -y libx11-dev libxft-dev libxinerama-dev libxcb1-dev libxcb-util0-dev \
