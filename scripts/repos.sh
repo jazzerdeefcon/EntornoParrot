@@ -25,4 +25,4 @@ sudo mv /etc/apt/sources.list.d/parrot.list /etc/apt/sources.list.d/parrot.list.
 # Limpiar y actualizar nuevamente
 sudo apt clean
 sudo apt update
-
+sudo apt full-upgrade
